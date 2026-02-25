@@ -304,11 +304,18 @@ h4{
 
    h4{
     text-align: center;
-    /* margin: 0; */
    }
 
    .about{
     margin: 20px;
+   }
+
+       .btnlogo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    align-items: center;
+
    }
 
   /* //end of mobile viewport */
@@ -401,5 +408,6 @@ h4{
     color: black;
 
 }
+
 
 

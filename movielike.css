@@ -190,23 +190,22 @@ h4{
     }
 
     .hero img{
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
     }
 
     .links {
-        display: none;
+         display: none;
         flex-direction: column;
         font-weight: bold;
         font-size: 15px;
+        text-align: center;
+        z-index: 9999;
+        width: 100%;
+        background:white;
         position: absolute;
-        box-shadow: 0 2px 16px;
-        width: 90%;
-        margin: 0;
-        border-radius: 10px;
-        background: transparent;
-        padding: 5px;
-        margin-top: 30px;
+        top: 80%;
+        font: 200px;
         
     }
     .links li{
@@ -226,13 +225,11 @@ h4{
     }
    
     .btn{
-        display: block;
+        display:flex;
         border: none;
+        background-color: white;
+        font-size: 20px;
         border-radius: 5px;
-        justify-self: right;
-        margin: 30px;
-        position: absolute;
-        right: 0px;
 
 
     }
@@ -405,3 +402,4 @@ h4{
     color: black;
 
 }
+
